@@ -1,0 +1,14 @@
+{
+  "name": "nexus",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MCP Server + Agent Kit for Solana DeFi Protocols",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build": "yarn workspaces run build",
+    "clean": "yarn workspaces run clean"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
